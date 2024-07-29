@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="to-do-list.css">
+</head>
+<body onload="loadItems()">
+    <div class="main-container">
+        <div class="todo-form">
+            <input placeholder="Enter A Task" class="task-input" type="text" id="todo-input">
+            <button class="todo-add-btn" onclick="addToList()">Add Task</button>
+        </div>
+        <div class="todo-list-container">
+            <ul class="todo-list-content" id="todo-list-content"></ul>
+        </div>
+    </div>
+    <script src="ToDoList.js"></script>
+</body>
+</html>
